@@ -373,3 +373,13 @@ function SetPolygonDrawingMode(bounding){
   bounding_box = bounding;
   SetDrawingMode(0);
 }
+
+function CallPythonServer() {
+    var params = new URLSearchParams(window.location.search);
+    let folder = params.get('folder');
+    let file = params.get('image');
+    fetch(`annotationTools/perl/hello_world.cgi?folder=${folder}&image=${file}`)
+        .then(response => response.json())
+        .then(body => window.location.replace(body.redirect_url))
+        .catch( err => console.log(err))
+}

@@ -332,7 +332,8 @@ function file_info() {
     
     /** Fetch next image. */
     this.FetchImage = function () {
-        var url = 'annotationTools/perl/fetch_image.cgi?mode=' + this.mode + '&amp;username=' + username + '&amp;collection=' + this.collection.toLowerCase() + '&amp;folder=' + this.dir_name + '&amp;image=' + this.im_name;
+        var url = 'annotationTools/perl/fetch_image.c
+                gi?mode=' + this.mode + '&amp;username=' + username + '&amp;collection=' + this.collection.toLowerCase() + '&amp;folder=' + this.dir_name + '&amp;image=' + this.im_name;
         var im_req;
         // branch for native XMLHttpRequest object
         if (window.XMLHttpRequest) {

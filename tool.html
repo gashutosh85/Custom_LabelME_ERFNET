@@ -144,6 +144,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
       <button id="fit" class="labelBtnDraw" type="button" title="Fit Image">
         <img src="Icons/fitscreen.png" width="28" height="38" />
       </button>
+
+      <button id="fix_model" class="labelBtnSubmit" type="button" title="Submit Image" onclick="CallPythonServer(true)" >
+       Fix Model
+      </button>
+
       </div>
     </div>
   </div>
@@ -192,7 +197,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   
   <!-- DIV that will contain the object list -->
   <div id="anno_anchor"></div>
-  
+
   <!-- DIV for Mechanical Turk feedback form -->
   <div id="mt_feedback" style="position:absolute;bottom:4px;" />
 

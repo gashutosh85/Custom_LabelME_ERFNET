@@ -9,6 +9,11 @@
     min-width:150px;
 }
 
+#button_anchor {
+    position: absolute;
+    right:0px;
+}
+
 .object_list {
     position:absolute;
     top:70px;
