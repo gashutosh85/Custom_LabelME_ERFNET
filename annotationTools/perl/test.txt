@@ -1,0 +1,182 @@
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/train
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/val
+<class '__main__.CrossEntropyLoss2d'>
+=> Loaded checkpoint at epoch 151)
+----- TRAINING - EPOCH 151 -----
+LEARNING RATE:  4.123462221165295e-05
+loss: 2.996 (epoch: 151, step: 0) // Avg time/img: 0.0267 s
+----- VALIDATING - EPOCH 151 -----
+Time to add confusion matrix:  0.015527486801147461
+VAL loss: 2.996 (epoch: 151, step: 0) // Avg time/img: 0.0072 s
+EPOCH IoU on VAL set:  [0m1.43[0m %
+----- TRAINING - EPOCH 152 -----
+LEARNING RATE:  3.7504232163972446e-05
+loss: 2.996 (epoch: 152, step: 0) // Avg time/img: 0.0220 s
+----- VALIDATING - EPOCH 152 -----
+Time to add confusion matrix:  0.02083563804626465
+VAL loss: 2.996 (epoch: 152, step: 0) // Avg time/img: 0.0056 s
+EPOCH IoU on VAL set:  [0m0.43[0m %
+----- TRAINING - EPOCH 153 -----
+LEARNING RATE:  3.373207119183911e-05
+loss: 2.996 (epoch: 153, step: 0) // Avg time/img: 0.0170 s
+----- VALIDATING - EPOCH 153 -----
+Time to add confusion matrix:  0.014067888259887695
+VAL loss: 2.996 (epoch: 153, step: 0) // Avg time/img: 0.0036 s
+EPOCH IoU on VAL set:  [0m2.12[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 153)
+----- TRAINING - EPOCH 154 -----
+LEARNING RATE:  2.991233086404692e-05
+loss: 2.996 (epoch: 154, step: 0) // Avg time/img: 0.0175 s
+----- VALIDATING - EPOCH 154 -----
+Time to add confusion matrix:  0.020829439163208008
+VAL loss: 2.996 (epoch: 154, step: 0) // Avg time/img: 0.0064 s
+EPOCH IoU on VAL set:  [0m4.70[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 154)
+----- TRAINING - EPOCH 155 -----
+LEARNING RATE:  2.6037431793033015e-05
+loss: 2.996 (epoch: 155, step: 0) // Avg time/img: 0.0173 s
+----- VALIDATING - EPOCH 155 -----
+Time to add confusion matrix:  0.02086329460144043
+VAL loss: 2.996 (epoch: 155, step: 0) // Avg time/img: 0.0036 s
+EPOCH IoU on VAL set:  [0m6.25[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 155)
+----- TRAINING - EPOCH 156 -----
+LEARNING RATE:  2.209708691207961e-05
+loss: 2.996 (epoch: 156, step: 0) // Avg time/img: 0.0165 s
+----- VALIDATING - EPOCH 156 -----
+Time to add confusion matrix:  0.01597905158996582
+VAL loss: 2.996 (epoch: 156, step: 0) // Avg time/img: 0.0055 s
+EPOCH IoU on VAL set:  [0m7.28[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 156)
+----- TRAINING - EPOCH 157 -----
+LEARNING RATE:  1.8076569369899076e-05
+loss: 2.996 (epoch: 157, step: 0) // Avg time/img: 0.0202 s
+----- VALIDATING - EPOCH 157 -----
+Time to add confusion matrix:  0.02085733413696289
+VAL loss: 2.996 (epoch: 157, step: 0) // Avg time/img: 0.0068 s
+EPOCH IoU on VAL set:  [0m7.39[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 157)
+----- TRAINING - EPOCH 158 -----
+LEARNING RATE:  1.3953114214185817e-05
+loss: 2.996 (epoch: 158, step: 0) // Avg time/img: 0.0198 s
+----- VALIDATING - EPOCH 158 -----
+Time to add confusion matrix:  0.020782470703125
+VAL loss: 2.996 (epoch: 158, step: 0) // Avg time/img: 0.0036 s
+EPOCH IoU on VAL set:  [0m9.35[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 158)
+----- TRAINING - EPOCH 159 -----
+LEARNING RATE:  9.686993672177076e-06
+loss: 2.996 (epoch: 159, step: 0) // Avg time/img: 0.0203 s
+----- VALIDATING - EPOCH 159 -----
+Time to add confusion matrix:  0.020783662796020508
+VAL loss: 2.996 (epoch: 159, step: 0) // Avg time/img: 0.0036 s
+EPOCH IoU on VAL set:  [0m10.69[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 159)
+----- TRAINING - EPOCH 160 -----
+LEARNING RATE:  5.191131374798193e-06
+loss: 2.996 (epoch: 160, step: 0) // Avg time/img: 0.0186 s
+----- VALIDATING - EPOCH 160 -----
+Time to add confusion matrix:  0.0073087215423583984
+VAL loss: 2.996 (epoch: 160, step: 0) // Avg time/img: 0.0063 s
+EPOCH IoU on VAL set:  [0m10.96[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_encoder_best.pth (epoch: 160)
+========== DECODER TRAINING ===========
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/train
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/val
+<class '__main__.CrossEntropyLoss2d'>
+=> Loaded checkpoint at epoch 151)
+----- TRAINING - EPOCH 151 -----
+LEARNING RATE:  4.123462221165295e-05
+loss: 2.988 (epoch: 151, step: 0) // Avg time/img: 0.0319 s
+----- VALIDATING - EPOCH 151 -----
+Time to add confusion matrix:  0.0868065357208252
+VAL loss: 3.0 (epoch: 151, step: 0) // Avg time/img: 0.0134 s
+EPOCH IoU on VAL set:  [0m1.09[0m %
+----- TRAINING - EPOCH 152 -----
+LEARNING RATE:  3.7504232163972446e-05
+loss: 2.995 (epoch: 152, step: 0) // Avg time/img: 0.0339 s
+----- VALIDATING - EPOCH 152 -----
+Time to add confusion matrix:  0.07026958465576172
+VAL loss: 3.006 (epoch: 152, step: 0) // Avg time/img: 0.0082 s
+EPOCH IoU on VAL set:  [0m5.51[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 152)
+----- TRAINING - EPOCH 153 -----
+LEARNING RATE:  3.373207119183911e-05
+loss: 2.992 (epoch: 153, step: 0) // Avg time/img: 0.0328 s
+----- VALIDATING - EPOCH 153 -----
+Time to add confusion matrix:  0.06913280487060547
+VAL loss: 3.005 (epoch: 153, step: 0) // Avg time/img: 0.0082 s
+EPOCH IoU on VAL set:  [0m8.00[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 153)
+----- TRAINING - EPOCH 154 -----
+LEARNING RATE:  2.991233086404692e-05
+loss: 2.988 (epoch: 154, step: 0) // Avg time/img: 0.0298 s
+----- VALIDATING - EPOCH 154 -----
+Time to add confusion matrix:  0.04980802536010742
+VAL loss: 3.007 (epoch: 154, step: 0) // Avg time/img: 0.0098 s
+EPOCH IoU on VAL set:  [0m8.97[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 154)
+----- TRAINING - EPOCH 155 -----
+LEARNING RATE:  2.6037431793033015e-05
+loss: 2.992 (epoch: 155, step: 0) // Avg time/img: 0.0293 s
+----- VALIDATING - EPOCH 155 -----
+Time to add confusion matrix:  0.07042503356933594
+VAL loss: 3.006 (epoch: 155, step: 0) // Avg time/img: 0.0093 s
+EPOCH IoU on VAL set:  [0m8.44[0m %
+----- TRAINING - EPOCH 156 -----
+LEARNING RATE:  2.209708691207961e-05
+loss: 2.997 (epoch: 156, step: 0) // Avg time/img: 0.0279 s
+----- VALIDATING - EPOCH 156 -----
+Time to add confusion matrix:  0.07038402557373047
+VAL loss: 3.002 (epoch: 156, step: 0) // Avg time/img: 0.0085 s
+EPOCH IoU on VAL set:  [0m9.09[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 156)
+----- TRAINING - EPOCH 157 -----
+LEARNING RATE:  1.8076569369899076e-05
+loss: 2.988 (epoch: 157, step: 0) // Avg time/img: 0.0329 s
+----- VALIDATING - EPOCH 157 -----
+Time to add confusion matrix:  0.05622601509094238
+VAL loss: 3.0 (epoch: 157, step: 0) // Avg time/img: 0.0102 s
+EPOCH IoU on VAL set:  [0m10.06[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 157)
+----- TRAINING - EPOCH 158 -----
+LEARNING RATE:  1.3953114214185817e-05
+loss: 2.988 (epoch: 158, step: 0) // Avg time/img: 0.0285 s
+----- VALIDATING - EPOCH 158 -----
+Time to add confusion matrix:  0.07080817222595215
+VAL loss: 2.998 (epoch: 158, step: 0) // Avg time/img: 0.0089 s
+EPOCH IoU on VAL set:  [0m11.39[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 158)
+----- TRAINING - EPOCH 159 -----
+LEARNING RATE:  9.686993672177076e-06
+loss: 2.994 (epoch: 159, step: 0) // Avg time/img: 0.0294 s
+----- VALIDATING - EPOCH 159 -----
+Time to add confusion matrix:  0.05392003059387207
+VAL loss: 2.998 (epoch: 159, step: 0) // Avg time/img: 0.0088 s
+EPOCH IoU on VAL set:  [0m11.93[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 159)
+----- TRAINING - EPOCH 160 -----
+LEARNING RATE:  5.191131374798193e-06
+loss: 2.995 (epoch: 160, step: 0) // Avg time/img: 0.0292 s
+----- VALIDATING - EPOCH 160 -----
+Time to add confusion matrix:  0.04233741760253906
+VAL loss: 2.998 (epoch: 160, step: 0) // Avg time/img: 0.0096 s
+EPOCH IoU on VAL set:  [0m12.08[0m %
+Saving model as best
+save: /var/www/html/work/work/erfnet_pytorch/save/erfnet_training4/model_best.pth (epoch: 160)
+========== TRAINING FINISHED ===========

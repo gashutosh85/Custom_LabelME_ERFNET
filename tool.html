@@ -145,8 +145,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         <img src="Icons/fitscreen.png" width="28" height="38" />
       </button>
 
-      <button id="fix_model" class="labelBtnSubmit" type="button" title="Submit Image" onclick="CallPythonServer(true)" >
-       Fix Model
+      <button id="Predict" class="labelBtnSubmit" type="button" title="Submit Image" onclick="CallPythonServer_predict(true)" >
+       Predict Model
+      </button>
+      <button id="Train" class="labelBtnSubmit" type="button" title="Submit Image" onclick="CallPythonServer_train(true)" >
+       Train Model
+      </button>
+      <button id="Reset Weights" class="labelBtnSubmit" type="button" title="Submit Image" onclick="CallPythonServer_reset_weights(true)" >
+       Reset Weights
       </button>
 
       </div>

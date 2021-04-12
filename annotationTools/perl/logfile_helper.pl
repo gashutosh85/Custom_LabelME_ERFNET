@@ -1,5 +1,5 @@
 #!/usr/bin/perl
-require 'globalvariables.pl';
+require '/var/www/html/LabelMe/annotationTools/perl/globalvariables.pl';
 
 sub WriteLogfile {
     my($datestr2,$folder,$fname,$tot_before,$tot_after,$addr,$host,$objname,$global_count,$username,$modifiedControlPoints,$tot_del_before,$tot_del_after) = @_;

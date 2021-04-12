@@ -1,0 +1,4 @@
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/train
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/val
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/train
+/var/www/html/work/work/dataset/cityscapes/leftImg8bit/val

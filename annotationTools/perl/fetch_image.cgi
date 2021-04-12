@@ -4,7 +4,7 @@ use strict;
 use CGI;
 use CGI::Carp qw ( fatalsToBrowser );
 
-require 'globalvariables.pl';
+require '/var/www/html/LabelMe/annotationTools/perl/globalvariables.pl';
 use vars qw($LM_HOME);
 
 my $query = new CGI;

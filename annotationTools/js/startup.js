@@ -374,12 +374,54 @@ function SetPolygonDrawingMode(bounding){
   SetDrawingMode(0);
 }
 
-function CallPythonServer() {
+function CallPythonServer_reset_weights() {
     var params = new URLSearchParams(window.location.search);
     let folder = params.get('folder');
     let file = params.get('image');
-    fetch(`annotationTools/perl/hello_world.cgi?folder=${folder}&image=${file}`)
+//     fetch(`annotationTools/perl/hello_world.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
+//     fetch(`annotationTools/perl/train.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
+    fetch(`annotationTools/perl/reset_weights.cgi?folder=${folder}&image=${file}`)
         .then(response => response.json())
         .then(body => window.location.replace(body.redirect_url))
         .catch( err => console.log(err))
+}
+function CallPythonServer_predict() {
+    var params = new URLSearchParams(window.location.search);
+    let folder = params.get('folder');
+    let file = params.get('image');
+    fetch(`annotationTools/perl/predict.cgi?folder=${folder}&image=${file}`)
+        .then(response => response.json())
+        .then(body => window.location.replace(body.redirect_url))
+        .catch( err => console.log(err))
+//     fetch(`annotationTools/perl/train.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
+//     fetch(`annotationTools/perl/reset_weights.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
+}
+function CallPythonServer_train() {
+    var params = new URLSearchParams(window.location.search);
+    let folder = params.get('folder');
+    let file = params.get('image');
+//     fetch(`annotationTools/perl/hello_world.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
+    fetch(`annotationTools/perl/train.cgi?folder=${folder}&image=${file}`)
+        .then(response => response.json())
+        .then(body => window.location.replace(body.redirect_url))
+        .catch( err => console.log(err))
+//     fetch(`annotationTools/perl/reset_weights.cgi?folder=${folder}&image=${file}`)
+//         .then(response => response.json())
+//         .then(body => window.location.replace(body.redirect_url))
+//         .catch( err => console.log(err))
 }

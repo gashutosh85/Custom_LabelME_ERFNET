@@ -1,6 +1,6 @@
 #!/usr/bin/perl
-require 'globalvariables.pl';
-require 'logfile_helper.pl';
+require '/var/www/html/LabelMe/annotationTools/perl/globalvariables.pl';
+require '/var/www/html/LabelMe/annotationTools/perl/logfile_helper.pl';
 
 ##############################
 # Get the timestamp:
